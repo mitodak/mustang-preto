@@ -9,3 +9,22 @@ const txt1 = "teste";
 
 
 console.log(txt0 === txt1);
+
+
+let input = null;
+
+if (input === null) {
+ console.log('não há informação');
+} else {
+ console.log(input);
+}
+
+
+const tipoNull = null
+const semValor = 3;
+
+if (semValor == tipoNull ) {
+    console.log('erro!');
+} else {
+    console.log ('safe');
+}
