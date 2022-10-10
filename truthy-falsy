@@ -1,0 +1,28 @@
+// boolean
+const usuarioLogado = true
+const contapaga = false
+
+// truthy or false
+
+// 0 => false
+// 1 => false
+
+//console.log (0 == false)
+//console.log ("" == false)
+//console.log (1 == true)
+
+// undefined
+
+// null
+
+let minhaVar;
+let varNull = null;
+
+console.log(minhaVar)
+console.log(varNull)
+
+let num = 3;
+let texto = 'Alura'
+
+console.log(typeof minhaVar)
+console.log(typeof varNull)
