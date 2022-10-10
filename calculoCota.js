@@ -1,6 +1,8 @@
-const credito  = 100000;
-const taxaAdm  = 24;
-const prazoGrp = 240;
+//Cálcular valor da parcela SEM SEGURO
+
+const credito  = 200000; // Crédito
+const taxaAdm  = 24; // Taxa de Administração
+const prazoGrp = 240; // Prazo do grupo
 const percMens = credito / prazoGrp * 0.001;
 const percTaxa = taxaAdm / prazoGrp;
 const percTotal= percMens + percTaxa;
