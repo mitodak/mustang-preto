@@ -1,0 +1,11 @@
+const x = 1;
+const y = 2;
+let z = false;
+
+console.log (x === y);
+
+const txt0 = "teste";
+const txt1 = "teste";
+
+
+console.log(txt0 === txt1);
