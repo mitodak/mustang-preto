@@ -19,10 +19,11 @@ const bebidaMenor = "suco";
 const pedido = `${nome} diz: "por favor, quero beber ${idade >= 18 ? bebidaMaior : bebidaMenor}"`
 console.log(pedido)
 
-// const nomeCliente = "Ulisses"
-// const grupo = 770
-// const cota = 132
-// const mensagem = `Olá, ${nomeCliente}, estamos entrando em contato para falar sobre 
-// a contemplação da cota ${cota}, grupo ${grupo}.`
+ const nomeCliente = "Ulisses"
+ const contemplacao = true
+ const grupo = 770
+ const cota = 132
+ const mensagem = `Olá, ${nomeCliente}, estamos entrando em contato para falar sobre 
+ a da cota ${cota}, grupo ${grupo}.`
 
-// console.log(mensagem)
+ console.log(mensagem)

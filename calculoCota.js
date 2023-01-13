@@ -1,8 +1,8 @@
 //Calculadora de Parcela - Imóveis
 
-const credito     = 250000;                               // Crédito
+const credito     = 100000;                               // Crédito
 const taxaAdm     = 24;                                   // Taxa de Administração
-const flagSeguro  = true                                 // Define se a cota possui ou não seguro
+const flagSeguro  = false                                 // Define se a cota possui ou não seguro
 const prazoGrp    = 240;                                  // Prazo do grupo
 const percMens    = 100 / prazoGrp;                       // Percentual mensal sem T.A.
 const txSeguro    = 0.00038;                              // Percentual seguro
